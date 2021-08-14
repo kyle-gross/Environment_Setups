@@ -8,10 +8,9 @@ sudo apt-get -y upgrade
 
 # Install packages
 sudo apt-get -y install gcc
-sudo apt-get -y install pep8
+#sudo apt-get -y install pep8
 sudo apt-get -y install python3-pip
 pip3 install --upgrade pip3
-pip3 install --upgrade autopep8
 #sudo apt-get install -y mysql-server
 
 # Setup aliases for .bashrc
@@ -29,8 +28,8 @@ alias gp='git push'\n\
 alias v='valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all -v'\n\
 # doctest\n\
 alias dt='python3 -m doctest'\n\
-# autopep8\n\
-alias ap='autopep8 -i -a'" >> ~/.bashrc
+# pycodestyle\n\
+alias p='pycodestyle'" >> ~/.bashrc
 
 source ~/.bashrc
 
