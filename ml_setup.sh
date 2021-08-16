@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 # Kyle's ML environment setup script
+# Includes:
+#       pip
+#       pycodestyle
+#       numpy
+#       scipy
+#       matplotlib
+# WSL2 - Ubuntu-18.04
 
 # Update/upgrade
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
 # Install pip
+sudo apt-get -y install python3-pip
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 rm get-pip.py
