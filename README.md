@@ -1,11 +1,11 @@
 # Environment Setups
 Quickly create new development environments for general use and specific frameworks.
-## bashsetup.sh
+## bash.sh
 * Sets my preferred settings:
     * .vimrc
     * .bashrc
 
-## ml_setup.sh
+## ml.sh
 * Installs required Python libraries that we've used so far:
     * pip
     * numpy-1.15
@@ -14,5 +14,6 @@ Quickly create new development environments for general use and specific framewo
     * Pillow
     * python3-tk (dependancy)
 
-## tf_setup.sh
+## tf.sh
+* Tensorflow
 * Does not currently work. Investigation underway.
