@@ -1,4 +1,4 @@
-# Environment_Setups
+# Environment Setups
 Quickly create new development environments for general use and specific frameworks.
 ## bashsetup.sh
 * Sets my preferred settings:
