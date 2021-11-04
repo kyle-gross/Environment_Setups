@@ -32,3 +32,19 @@ pip install --user pycodestyle==2.5
 pip install --user matplotlib==3.0
 pip install --user Pillow
 sudo apt-get -y install python3-tk
+
+    # opencv-python
+pip install --user opencv-python
+
+    # dlib
+sudo apt-get update
+sudo apt-get install -y build-essential cmake
+sudo apt-get install -y libopenblas-dev liblapack-dev
+sudo apt-get install -y libx11-dev libgtk-3-dev
+sudo apt-get install -y python3 python3-dev python3-pip
+pip install --user dlib==19.17.0
+
+# Edit bashrc file to enable X servers
+echo "export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0" >> ~/.bashrc
+echo "export LIBGL_ALWAYS_INDIRECT=1" >> ~/.bashrc
+
